@@ -1,0 +1,22 @@
+/* Dropdown personnalisé */
+.dropdown-menu {
+    border: 1px solid rgba(44, 95, 45, 0.1);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    margin-top: 10px;
+  }
+  
+  .dropdown-item {
+    padding: 8px 20px;
+    color: #2c5f2d;
+    transition: all 0.3s;
+  }
+  
+  .dropdown-item:hover {
+    background: #f8fafb;
+    color: #1e401f;
+  }
+  
+  .dropdown-toggle::after {
+    vertical-align: middle;
+    margin-left: 8px;
+  }

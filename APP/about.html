@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>AgriGuide</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="static/Agri/images/favicon.png" rel="icon">
+  <link href="static/Agri/images/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Marcellus:wght@400&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/Agri/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/Agri/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="static/Agri/vendor/aos/aos.css" rel="stylesheet">
+  <link href="static/Agri/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="static/Agri/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="static/Agri/css/main.css" rel="stylesheet">
+    
+  <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 40px 20px;
+    }
+
+    .section {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        margin: 60px 0;
+    }
+
+    .reverse {
+        flex-direction: row-reverse;
+    }
+
+    .text-content {
+        flex: 1;
+        padding: 20px;
+    }
+
+    .image-container {
+        flex: 1;
+        height: 400px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .full-text {
+        background: #f8f9fa;
+        padding: 40px;
+        border-radius: 10px;
+        margin: 40px 0;
+    }
+
+    h2 {
+        color: #2c5f2d;
+        margin-bottom: 20px;
+    }
+
+    p {
+        line-height: 1.8;
+        color: #555;
+        font-size: 1.1em;
+    }
+
+    @media (max-width: 768px) {
+        .section {
+            flex-direction: column;
+        }
+        
+        .image-container {
+            width: 100%;
+            height: 300px;
+        }
+          /* Dropdown personnalisé */
+.dropdown-menu {
+  border: 1px solid rgba(44, 95, 45, 0.1);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  margin-top: 10px;
+}
+
+.dropdown-item {
+  padding: 8px 20px;
+  color: #2c5f2d;
+  transition: all 0.3s;
+}
+
+.dropdown-item:hover {
+  background: #f8fafb;
+  color: #1e401f;
+}
+
+.dropdown-toggle::after {
+  vertical-align: middle;
+  margin-left: 8px;
+}
+    }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header id="header" class="header d-flex align-items-center position-relative">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.php" class="logo d-flex align-items-center">
+        <img src="static/Agri/images/logo.png" alt="AgriCulture">
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.php" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" href="#" role="button" id="profileDropdown" data-bs-toggle="dropdown">
+              Profile
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="index2.php">Login</a></li>
+              <li><a class="dropdown-item" href="index3.php">Sign Up</a></li>
+            </ul>
+          </li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="container py-5">
+    <div class="container">
+        <!-- Section 1: Text + Image -->
+        <section class="section">
+            <div class="text-content">
+                <h2>What is AgriGuide?</h2>
+                <p>AgriGuide is a smart application designed for farmers, offering them a personal space to monitor the status of their crops. It provides recommendations based on soil moisture, weather data, and crop type. With its features, AgriGuide helps optimize irrigation, plan farming activities, and improve yields.</p>
+            </div>
+            <div class="image-container">
+                <img src="images/WhatsApp Image 2025-04-07 at 16.27.18.jpeg" alt="AgriGuide Interface">
+            </div>
+        </section>
+
+        <!-- Section 2: Text Only -->
+        <section class="full-text">
+            <p>Using AgriGuide means adopting smarter and more efficient agriculture. With its personalized advice, farmers can better manage irrigation, avoid resource waste, and make decisions based on accurate data. This not only increases productivity but also reduces risks related to climate conditions and poor farming practices.</p>
+        </section>
+
+        <!-- Section 3: Image + Text -->
+        <section class="section reverse">
+            <div class="image-container">
+                <img src="images/WhatsApp Image 2025-04-07 at 16.26.29.jpeg" alt="AgriGuide Team">
+            </div>
+            <div class="text-content">
+                <h2>Our Team</h2>
+                <p>This project is carried out by a dynamic team composed of Asmae, Kaoutar, Hiba, Norhane, and Chaimae, all driven by the desire to bring an innovative solution to the agricultural sector. Our collaboration combines technical expertise and field knowledge to develop a tool that truly meets the real needs of farmers.</p>
+            </div>
+        </section>
+    </div>
+</main>
+
+
+<!-- Footer -->
+<footer id="footer" class="footer dark-background">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.php" class="logo d-flex align-items-center">
+              <span class="sitename">AgriGuide</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p></p>
+              <p>Rue Charaf ,40 150 Al hoceima</p>
+              <p class="mt-3"><strong>Phone:</strong> <span>+212 745216985</span></p>
+              <p><strong>Email:</strong> <span>AgriGuide@gmail.com</span></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright text-center">
+      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+
+    
+        <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
+          <a href=""><i class="bi bi-twitter-x"></i></a>
+          <a href=""><i class="bi bi-facebook"></i></a>
+          <a href=""><i class="bi bi-instagram"></i></a>
+          <a href=""><i class="bi bi-linkedin"></i></a>
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+<script src="static/Agri/vendor/php-email-form/validate.js"></script>
+<script src="static/Agri/vendor/aos/aos.js"></script>
+<script src="static/Agri/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="static/Agri/vendor/glightbox/js/glightbox.min.js"></script>
+
+<!-- Main JS File -->
+<script src="static/Agri/js/main.js"></script>
+<script src="static/Agri/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Fermer le dropdown quand on clique ailleurs
+    document.addEventListener('click', function(e) {
+      if (!e.target.closest('.dropdown')) {
+        var dropdowns = document.querySelectorAll('.dropdown-menu');
+        dropdowns.forEach(function(dropdown) {
+          dropdown.classList.remove('show');
+        });
+      }
+    });
+  </script>
+
+</body>
+</html>
