@@ -322,7 +322,7 @@ include("chat.php");
     </div>
 
     <script>
-        const API_KEY = '3d08520c62aa14543f6ddef38eabe23d'; // Get from OpenWeatherMap
+        const API_KEY = "API_KEY"; // Get from OpenWeatherMap
 
         async function getWeather() {
             const cityInput = document.getElementById('cityInput').value;
